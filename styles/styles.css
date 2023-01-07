@@ -277,3 +277,8 @@
     color: #000000;
     padding-bottom: 8px;
 }
+
+a {
+    text-decoration: none;
+    padding-left: 18px;
+}
