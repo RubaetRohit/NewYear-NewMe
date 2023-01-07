@@ -159,18 +159,97 @@ li:before {
 }
 
 .image {
-    background-image: linear-gradient(to right , #005FAC 0%, rgba(0, 95, 172, 0) 100%) , url(../images/watch.png);
+    background-image: linear-gradient(to right, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-     /* width: 1140px; */
+    /* width: 1140px; */
     height: 245px;
     margin: 0px 230px 130px 230px;
     padding: 59px 617px 0px 64px;
 }
+
+
 
 .words {
     margin-bottom: 24px;
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.parentdiv3 {
+    display: flex;
+    text-align: left;
+    gap: 331px;
+    background: #151414;
+    width: 1600px;
+    height: 577px;
+
+}
+
+
+.footer-leftside-description {
+    font-weight: 400px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+
+}
+
+.mail {
+    width: 184px;
+    height: 26px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+
+}
+
+.tele {
+    width: 184px;
+    height: 26px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+}
+
+.leftside {
+    margin: 130px 0px 230px 230px;
+}
+
+.rightside {
+    margin: 130px 229px 243px 0px;
+}
+
+.rightside-title {
+    font-weight: 600px;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.form input {
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 21px 45px 22px 21px;
+    margin-bottom: 38px;
+}
+
+.submit-button {
+    background-color: #005FAC;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 36.2px;
+
 }
