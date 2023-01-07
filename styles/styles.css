@@ -53,7 +53,7 @@
 }
 
 .child-div {
-    padding-top: 60px;
+    padding-top: 150px;
 }
 
 .c-div-title {
@@ -62,6 +62,7 @@
     color: #000000;
     margin-bottom: 24px;
 }
+
 
 .c-div-description {
     font-weight: 400;
@@ -76,8 +77,100 @@
 }
 
 li:before {
-    content: '✓ ';
+    content: '✓  ';
     color: rgb(144, 236, 5);
-} 
+}
 
-.failure {}
+
+
+.heading2 {
+    font-weight: 700px;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 1600px;
+}
+
+/* Need to Know difference between Text Align & Align items */
+
+.parent-div2 {
+    margin: 0px 229px 130px 230px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 86px;
+}
+
+.web-title {
+    margin-top: 23px;
+    margin-bottom: 16px;
+    font-weight: 700px;
+    font-size: 30px;
+
+}
+
+.web-para {
+    font-weight: 500px;
+    font-size: 25px;
+    color: #737272;
+}
+
+.js-title {
+    margin-top: 23px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.js-para {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.smoke-title {
+    margin-top: 23px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.smoke-para {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.ecom-title {
+    margin-top: 23px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.ecom-para {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.image {
+    background-image: linear-gradient(to right , #005FAC 0%, rgba(0, 95, 172, 0) 100%) , url(../images/watch.png);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+     /* width: 1140px; */
+    height: 245px;
+    margin: 0px 230px 130px 230px;
+    padding: 59px 617px 0px 64px;
+}
+
+.words {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
