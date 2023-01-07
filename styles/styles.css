@@ -76,7 +76,7 @@
     padding-bottom: 8px;
 }
 
-li:before {
+.child-div li:before {
     content: '✓  ';
     color: rgb(144, 236, 5);
 }
@@ -159,10 +159,10 @@ li:before {
 }
 
 .image {
-    background-image: linear-gradient(to right, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-image: linear-gradient(to right, #068cfa 0%, rgba(5, 138, 247, 0) 100%), url(../images/watch.png);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    /* width: 1140px; */
+    width: 500px;
     height: 245px;
     margin: 0px 230px 130px 230px;
     padding: 59px 617px 0px 64px;
@@ -252,4 +252,28 @@ li:before {
     color: #FFFFFF;
     padding: 20px 36.2px;
 
+}
+
+.visions {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    margin-bottom: 129.7px;
+}
+.vsions {
+    text-align: center right;
+    padding: 216px 230px 166px 845px;
+    color: #FFFFFF;
+
+}
+
+.h2 {
+    margin-bottom: 50px;
+}
+    
+.vision1 {
+    list-style-type: square;
+    color: #000000;
+    padding-bottom: 8px;
 }
