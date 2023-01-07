@@ -18,14 +18,14 @@
 }
 
 .quote {
-
-    font-weight: 700;
+    font-family: 'Work Sans';
+    font-weight: 700px;
     font-size: 65px;
     margin-bottom: 24px;
 }
 
 .header-description {
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 32px;
@@ -39,3 +39,45 @@
     font-size: 20px;
     color: #005FAC;
 }
+
+
+.parent-div {
+    margin: 131px 322px 129.7px 206px;
+    width: 1072px;
+    height: 723.3px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 87px;
+
+}
+
+.child-div {
+    padding-top: 60px;
+}
+
+.c-div-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.c-div-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+li:before {
+    content: '✓ ';
+    color: rgb(144, 236, 5);
+} 
+
+.failure {}
